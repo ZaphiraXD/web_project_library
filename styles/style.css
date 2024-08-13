@@ -1,46 +1,41 @@
-*::before
-*::after {
-  box-sizing: border-box;
-}
-
 .page {
-  display: flex;
-  flex-direction: column;
   min-width: 1100px;
   max-width: 1600px;
   margin: 0 auto;
+  font-family: Arial, sans-serif;
   font-size: 16px;
-  font-family: Arial, Helvetica, sans-serif;
   line-height: 20px;
-  justify-content: center;
 }
+
+/* ------------------- Cabeçalho ------------------- */
 
 .header {
   display: flex;
   flex-direction: column;
   height: 100vh;
-  padding: 0 80px;
+  min-height: 720px;
+  max-height: 800px;
+  padding: 30px 80px 40px;
   position: relative;
+  box-sizing: border-box;
 }
 
 .nav {
   display: flex;
   justify-content: space-between;
-  padding: 20px 0;
 }
 
 .nav__logo {
-  height: 80px;
   width: 58px;
+  height: 80px;
 }
 
 .nav__links {
   display: flex;
-  align-items: center;
-  list-style-type: none;
   column-gap: 20px;
-  padding: 0;
-  margin-top: 8px;
+  list-style-type: none;
+  margin: 8px 0 0;
+  padding-left: 0;
 }
 
 .nav__link {
@@ -49,21 +44,9 @@
   font-weight: bold;
 }
 
-.nav__link:hover {
-  color: #007bff;
-  text-decoration: underline;
-}
-
 .header__content {
   display: flex;
   justify-content: space-between;
-  flex: 1;
-  padding: 40px 0;
-  flex-direction: row;
-}
-
-.header__text {
-  max-width: 50%;
 }
 
 .header__title {
@@ -72,6 +55,7 @@
   font-weight: 500;
   max-width: 635px;
   margin-top: 128px;
+  margin-bottom: 0;
 }
 
 .header__description {
@@ -82,9 +66,7 @@
 }
 
 .header__image {
-  display: flex;
   max-width: 636px;
-  max-height: 636px;
 }
 
 .header__footer {
@@ -106,15 +88,14 @@
   color: #838383;
 }
 
+/* ------------------- Seção dos livros ------------------- */
+
 .staff {
-  margin-top: 10px;
   background-image: url("../images/staff_picks_background.jpg");
   padding: 100px 0 140px;
   background-size: cover;
-  background-position: center;
   background-repeat: no-repeat;
-  background-color: #ffffff;
-  background-attachment: fixed;
+  background-position: center;
 }
 
 .staff__title {
@@ -137,27 +118,22 @@
 
 .staff__cards {
   max-width: 760px;
-  margin: auto;
-  margin-top: 68px;
-  margin-bottom: 0;
+  margin: 68px auto 0;
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
   list-style-type: none;
   padding-left: 0;
-  row-gap: 40px;
-  column-gap: 40px;
-  justify-content: center;
-  align-items: center;
 }
 
 .card {
-  flex-wrap: wrap;
+  width: 360px;
+  height: 420px;
   background-color: #fff;
   border-radius: 6px;
   padding: 32px 40px 20px 32px;
   box-sizing: border-box;
-  height: 420px;
-  width: 360px;
 }
 
 .card__content {
@@ -178,14 +154,12 @@
   margin: 20px 0 0;
   font-size: 16px;
   line-height: 24px;
-  flex-shrink: initial;
-  display: contents;
 }
 
 .card__footer {
   margin: 0;
+  margin-top: auto;
   font-size: 14px;
   line-height: 20px;
   color: #838383;
-  margin-top: auto;
 }
