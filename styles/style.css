@@ -1,5 +1,4 @@
-*,
-*::before,
+*::before
 *::after {
   box-sizing: border-box;
 }
@@ -57,7 +56,6 @@
 .nav__link:hover {
   color: #007bff;
   text-decoration: underline;
-
 }
 
 .header__content {
