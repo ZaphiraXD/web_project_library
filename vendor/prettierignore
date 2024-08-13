@@ -1,0 +1,20 @@
+# Ignorar archivos de configuración
+*.config.js
+*.config.ts
+
+# Ignorar archivos de prueba
+**/*.test.js
+**/*.test.ts
+
+# Ignorar archivos de documentación
+docs/**
+
+# Ignorar archivos generados
+build/**
+
+# Ignorar archivos específicos
+public/old-archive.html
+src/legacy/**
+
+# Ignorar todos los archivos en un directorio
+node_modules/
