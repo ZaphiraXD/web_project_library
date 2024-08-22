@@ -431,8 +431,9 @@
   margin-right: 10px;
 }
 .footer__column-link {
-  text-decoration: none; /* Elimina la decoración del texto */
+  text-decoration: none;
   display: inline-block;
+  color: #f2f2f2;
 }
 
 .footer__copyright {
