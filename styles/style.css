@@ -430,14 +430,21 @@
   height: 16px;
   margin-right: 10px;
 }
+
 .footer__column-link {
+  color: white;
+  font-size: 10px;
+  line-height: 20px;
   text-decoration: none;
-  display: inline-block;
-  color: #f2f2f2;
+  opacity: 1;
+  display: flex;
+  gap: 10px;
+  display: -webkit-box;
 }
 
 .footer__copyright {
   text-align: left;
   margin-left: 80px;
   margin-top: 100px;
+  font-size: 10px;
 }
