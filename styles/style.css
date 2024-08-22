@@ -379,6 +379,7 @@
 }
 .footer__logo {
   margin-left: 80px;
+  margin right: auto;
   height: 80px;
   width: 58px;
 }
@@ -398,7 +399,7 @@
 .footer__column_content_hours {
   flex-direction: column;
   display: flex;
-  margin-right: 40px;
+  margin-right: 0;
   margin-left: 600px;
 }
 
@@ -406,6 +407,7 @@
   flex-direction: column;
   display: flex;
   margin-right: 80px;
+  margin-left: 80px;
 }
 
 .footer__column-heading {
