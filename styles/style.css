@@ -338,7 +338,6 @@
   margin: 100px 0 0;
   display: flex;
   flex-direction: row;
-  align-items: top;
   justify-content: center;
   gap: 40px;
   flex-basis: content;
@@ -399,14 +398,12 @@
   display: flex;
   margin-right: 40px;
   margin-left: 600px;
-  align-items: right;
 }
 
 .footer__column-content_social {
   flex-direction: column;
   display: flex;
   margin-right: 80px;
-  align-items: left;
 }
 
 .footer__column-heading {
