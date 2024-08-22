@@ -399,7 +399,7 @@
   flex-direction: column;
   display: flex;
   margin-right: 0;
-  margin-left: 600px;
+  margin-left: auto;
 }
 
 .footer__column_content_social {
