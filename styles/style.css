@@ -46,6 +46,12 @@
   color: #000000;
   text-decoration: none;
   font-weight: bold;
+  transition: color 0.3s ease, border-bottom 0.3s ease;
+}
+
+.nav__link:hover {
+  color: #2f80ed;
+  border-bottom: 2px solid #2f80ed;
 }
 
 .header__content {
@@ -310,4 +316,122 @@
   text-align: center;
   font-size: 14px;
   margin: 0;
+}
+.membership {
+  padding: 100px 0 140px;
+  background-color: #057bf2;
+  color: #ffffff;
+}
+
+.membership__title {
+  max-width: 574px;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 44px;
+  font-weight: 500;
+  line-height: 52px;
+}
+
+.membership__steps {
+  list-style-type: none;
+  padding: 0;
+  margin: 100px 0 0;
+  display: flex;
+  flex-direction: row;
+  align-items: top;
+  justify-content: center;
+  gap: 40px;
+  flex-basis: content;
+}
+
+.step {
+  flex-direction: row;
+  align-items: center;
+  width: 220px;
+  margin-left: 0;
+  box-sizing: border-box;
+}
+
+.step__title {
+  display: flex;
+  margin: 0;
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+}
+
+.step__icon {
+  margin-left: 20px;
+}
+
+.step__description {
+  margin: 10px 0 0;
+}
+
+.footer {
+  background-color: #000000;
+  color: #ffffff;
+  padding: 60px 80px;
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+}
+.footer__logo {
+  margin-left: 80px;
+}
+
+.footer__columns {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.footer__column {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.footer__column-content_hours {
+  flex-direction: column;
+  display: flex;
+  margin-right: 40px;
+  margin-left: 600px;
+  align-items: right;
+}
+
+.footer__column-content_social {
+  flex-direction: column;
+  display: flex;
+  margin-right: 80px;
+  align-items: left;
+}
+
+.footer__column-heading {
+  margin-bottom: 20px;
+  align-self: flex-start;
+}
+
+.footer__list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer__list-item {
+  margin-bottom: 16px;
+  text-align: left;
+}
+
+.footer__social-icon {
+  width: 16px;
+  height: 16px;
+  margin-right: 10px;
+}
+
+.footer__copyright {
+  text-align: left;
+  margin-left: 80px;
 }
