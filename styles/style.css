@@ -437,9 +437,7 @@
   line-height: 20px;
   text-decoration: none;
   opacity: 1;
-  display: flex;
   gap: 10px;
-  display: -webkit-box;
 }
 
 .footer__copyright {
